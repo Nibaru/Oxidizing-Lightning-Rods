@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "oxidizing_rods:exposed_lightning_rod",
+    "oxidizing_rods:weathered_lightning_rod",
+    "oxidizing_rods:oxidized_lightning_rod",
+    "oxidizing_rods:waxed_unaffected_lightning_rod",
+    "oxidizing_rods:waxed_exposed_lightning_rod",
+    "oxidizing_rods:waxed_weathered_lightning_rod",
+    "oxidizing_rods:waxed_oxidized_lightning_rod"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/lightning_rod",
+  "ambientocclusion": false,
+  "textures": {
+    "texture": "oxidizing_rods:block/weathered_lightning_rod",
+    "particle": "oxidizing_rods:block/weathered_lightning_rod"
+  }
+}

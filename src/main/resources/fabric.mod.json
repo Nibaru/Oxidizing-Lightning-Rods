@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "oxidizing_rods",
+  "version": "${version}",
+  "name": "Oxidizing Rods",
+  "description": "Makes Lightning Rods oxidize.",
+  "authors": ["Nibaru"],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/oxidizing-rods",
+    "sources": "https://github.com/Nibaru/Oxidizing-Lightning-Rods",
+    "issues": "https://github.com/Nibaru/Oxidizing-Lightning-Rods/issues"
+  },
+  "license": "LGPL-3.0",
+  "icon": "assets/oxidizing_rods/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "games.twinhead.oxidizingrods.client.OxidizingRodsClient"
+    ],
+    "main": [
+      "games.twinhead.oxidizingrods.OxidizingRods"
+    ]
+  },
+  "mixins": [
+    "oxidizing_rods.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.10",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  },
+  "custom": {
+    "loom:injected_interfaces": {
+      "net/minecraft/class_3609": ["net/minecraft/block/Oxidizable"]
+    }
+  },
+  "accessWidener" : "oxidizing_rods.accesswidener"
+}

@@ -1,0 +1,9 @@
+{
+  "block.oxidizing_rods.exposed_lightning_rod": "Exposed Lightning Rod",
+  "block.oxidizing_rods.weathered_lightning_rod": "Weathered Lightning Rod",
+  "block.oxidizing_rods.oxidized_lightning_rod": "Oxidized Lightning Rod",
+  "block.oxidizing_rods.waxed_unaffected_lightning_rod": "Waxed Lightning Rod",
+  "block.oxidizing_rods.waxed_exposed_lightning_rod": "Waxed Exposed Lightning Rod",
+  "block.oxidizing_rods.waxed_weathered_lightning_rod": "Waxed Weathered Lightning Rod",
+  "block.oxidizing_rods.waxed_oxidized_lightning_rod": "Waxed Oxidized Lightning Rod"
+}

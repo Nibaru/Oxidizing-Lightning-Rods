@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "games.twinhead.oxidizingrods.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "LightningEntityMixin",
+    "LightningRodBlockMixin",
+    "PointOfInterestTypesMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
